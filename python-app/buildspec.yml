@@ -24,4 +24,4 @@ phases:
        - docker push "$DOCKER_REGISTRY_USERNAME/python-app:latest"
   post_build:
     commands:
-       - echo "build is successful"
+       - echo "build is successfull"
